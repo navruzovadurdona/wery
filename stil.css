@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .container {
+    background: white;
+    padding: 50px;
+    border: 8px solid #ffdd57; /* толще и солнечнее рамка */
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2.5em;
+  }
+  
+  .quote-box {
+    margin: 30px 0;
+    font-size: 1.6em; /* увеличен текст */
+    min-height: 140px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  #quote-author {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
